@@ -26,13 +26,13 @@
 	                 &kp C_MUTE &kp LALT &kp LCTRL &mo 2 &mo 1       &kp RET &kp SPACE &kp SPACE &kp DEL &kp RGUI
 			>;
 
-		};
+		7};
 		lower_layer {
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 			bindings = <
 	&bt BT_NXT &kp K_WWW &kp C_AL_MAIL &kp C_AL_WORD &kp C_AL_FILES &kp C_AL_CALC                 &kp STAR &kp N7  &kp N8  &kp N9   &kp N0  &kp CLEAR
 	&kp C_RESET  &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT				     &kp FSLH &kp N4  &kp N5     &kp N6   &kp MINUS &kp PLUS
-	&kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp C_AC_PRINT &kp RSHFT &tog 1        &kp UP &kp LEFT &kp N0 &kp N1  &kp N2 &kp N3 &kp EQUAL &kp EQUAL
+	&kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &tog 1        &kp UP &kp LEFT &kp EXCL &kp N1  &kp N2 &kp N3 &kp EQUAL &kp EQUAL
 	             &kp C_MUTE &kp LALT &kp LCTRL &kp LSHFT &kp LSHFT      	    		  &kp DOWN   &kp RIGHT &kp HOME &kp END &kp RGUI
 			>;
 		};
