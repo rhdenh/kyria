@@ -20,29 +20,29 @@
 //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 			bindings = <
-	&kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-	&kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &tog 2 &tog 1        &kp LPAR &kp RPAR &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-	                 &kp C_MUTE &kp LALT &kp LCTRL &mo 2 &mo 1       &kp RET &kp SPACE &kp SPACE &kp DEL &kp RGUI
+	&kp ESC   &kp Q &kp W &kp E &kp R    &kp T                                             &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
+	&kp TAB   &kp A &kp S &kp D &kp F    &kp G                                             &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+	&kp LSHFT &kp Z &kp X &kp C &kp V    &kp B     &tog 2 &tog 1        &kp LPAR &kp RPAR  &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+	                &kp C_MUTE  &kp LALT &kp LCTRL &mo 2  &mo 1         &kp RET  &kp SPACE &kp SPACE    &kp DEL   &kp RGUI
 			>;
 
 		7};
 		lower_layer {
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 			bindings = <
-	&bt BT_NXT &kp K_WWW &kp C_AL_MAIL &kp C_AL_WORD &kp C_AL_FILES &kp C_AL_CALC                 &kp STAR &kp N7  &kp N8  &kp N9   &kp N0  &kp CLEAR
-	&kp C_RESET  &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT				     &kp FSLH &kp N4  &kp N5     &kp N6   &kp MINUS &kp PLUS
-	&kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &tog 1        &kp UP &kp LEFT &kp EXCL &kp N1  &kp N2 &kp N3 &kp EQUAL &kp EQUAL
-	             &kp C_MUTE &kp LALT &kp LCTRL &kp LSHFT &kp LSHFT      	    		  &kp DOWN   &kp RIGHT &kp HOME &kp END &kp RGUI
+	&bt BT_NXT   &kp K_WWW  &kp C_AL_MAIL &kp C_AL_WORD &kp C_AL_FILES  &kp C_AL_CALC           					   &kp STAR  &kp N7   &kp N8   &kp N9   &kp N0    &kp CLEAR
+	&kp C_RESET  &kp RSHFT  &kp RSHFT     &kp RSHFT     &kp RSHFT       &kp RSHFT							   &kp FSLH  &kp N4   &kp N5   &kp N6   &kp MINUS &kp PLUS
+	&kp RSHFT    &kp RSHFT  &kp RSHFT     &kp RSHFT     &kp RSHFT       &kp RSHFT  &kp RSHFT  &tog 1        	&kp UP   &kp LEFT  &kp EXCL  &kp N1   &kp N2   &kp N3   &kp EQUAL &kp EQUAL
+	             		&kp C_MUTE    &kp LALT      &kp LCTRL       &kp LSHFT  &kp LSHFT      	    		&kp DOWN &kp RIGHT &kp HOME  &kp END  &kp RGUI
 			>;
 		};
 		upper_layer {
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 			bindings = <	
-	&kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6                 				&kp C_AC_ZOOM_IN &kp C_AC_ZOOM_OUT &kp PSCRN &kp RSHFT &kp C_AL_HELP &kp BSPC
-	&kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12                        		     	&kp C_AC_NEW &kp C_AC_OPEN &kp C_AC_SAVE &kp C_AC_PRINT &kp C_AC_CLOSE &kp C_AC_EXIT
-	&kp LCAPS &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &tog 2 &kp RSHFT  	 	&kp PG_UP &kp LEFT &kp C_AL_SPELL &kp RSHFT  &kp RSHFT &kp RSHFT &kp K_REDO &kp K_UNDO
-	             &kp C_MUTE &kp LALT &kp LCTRL &kp LSHFT &kp LSHFT      		      &kp PG_DN &kp RIGHT &kp HOME &kp END &kp RGUI
+	&kp F1    &kp F2    &kp F3     &kp F4    &kp F5    &kp F6                 				    &kp C_AC_ZOOM_IN &kp C_AC_ZOOM_OUT &kp PSCRN     &kp RSHFT      &kp C_AL_HELP  &kp BSPC
+	&kp F7    &kp F8    &kp F9     &kp F10   &kp F11   &kp F12                        		     	    &kp C_AC_NEW     &kp C_AC_OPEN     &kp C_AC_SAVE &kp C_AC_PRINT &kp C_AC_CLOSE &kp C_AC_EXIT
+	&kp LCAPS &kp RSHFT &kp RSHFT  &kp RSHFT &kp RSHFT &kp RSHFT &tog 2  &kp RSHFT  	&kp PG_UP &kp LEFT  &kp C_AL_SPELL   &kp RSHFT         &kp RSHFT     &kp RSHFT      &kp K_REDO     &kp K_UNDO
+	            	    &kp C_MUTE &kp LALT  &kp LCTRL &kp LSHFT &kp LSHFT      	      	&kp PG_DN &kp RIGHT &kp HOME         &kp END           &kp RGUI
 			>;
 		};
 	};
