@@ -22,16 +22,16 @@
 	&kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
 	&kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
 	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp LPAR &kp RPAR        &kp AT &kp EXCL &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-	                 &kp LGUI &kp LCTRL &kp SPACE &kp LALT &mo 1       &mo 1 &kp RET &kp SPACE &kp DEL &kp RGUI
+	                 &kp C_AC_ZOOM &kp LCTRL &kp SPACE &kp LSHT &mo 1       &mo 1 &kp RET &kp SPACE &kp DEL &kp RGUI
 			>;
 
 		};
 		lower_layer {
 			bindings = <
-	&bt BT_NXT &kp HASH &kp DLLR &kp PRCNT &kp AMPS &kp K_CALC                       &kp STAR &kp N7  &kp N8     &kp N9   &kp PLUS  &kp KP_CLEAR
-	&kp TAB   &kp A &kp S &kp D &kp BSLH &kp &tog 1                                   &kp FSLH &kp N4  &kp N5     &kp N6   &kp MINUS &kp PLUS
-	&kp K_UNDO &kp K_REDO &kp X &kp C &kp V &kp B &kp LBKT &kp RBKT        &kp UP &kp LEFT &kp N0 &kp N1  &kp N2 &kp N3 &kp EQUAL &kp EQUAL
-	             &kp C_AC_ZOOM &kp LALT &kp K_CUT &kp K_COPY &kp K_PASTE       &kp DOWN   &kp RIGHT &kp HOME &kp END &kp RGUI
+	&bt BT_NXT &kp HASH &kp DLLR &kp PRCNT &kp AMPS &kp K_CALC                       &kp STAR &kp N7  &kp N8     &kp N9   &kp PLUS  &kp CLEAR
+	&kp C_RESET   &kp A &kp S &kp D &kp BSLH &kp &tog 1                                  &kp FSLH &kp N4  &kp N5     &kp N6   &kp MINUS &kp PLUS
+	&kpnone &kpnone &kpnone &kpnone &kpnone &kp B &kp LBKT &kp RBKT        &kp UP &kp LEFT &kp N0 &kp N1  &kp N2 &kp N3 &kp EQUAL &kp EQUAL
+	             &kp LGUI &kp LALT &kpnone &kpnone &kpnone       &kp DOWN   &kp RIGHT &kp HOME &kp END &kp RGUI
 			>;
 		};
 	};
