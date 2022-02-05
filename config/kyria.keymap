@@ -39,7 +39,7 @@
 		upper_layer {
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 			bindings = <	
-	&kp F1    &kp F2    &kp F3     &kp F4    &kp F5    &kp F6                 				    &kp C_AC_ZOOM_IN &kp C_AC_ZOOM_OUT &kp LPAR     &kp RPAR      &kp C_AL_HELP  &kp BSPC
+	&kp F1    &kp F2    &kp F3     &kp F4    &kp F5    &kp F6                 				    &kp LPAR &kp RPAR &kp MINUS   &kp EQUAL   &kp C_AL_HELP  &kp BSPC
 	&kp F7    &kp F8    &kp F9     &kp F10   &kp F11   &kp F12                        		     	    &kp C_AC_NEW     &kp C_AC_OPEN     &kp C_AC_SAVE &kp C_AC_PRINT &kp C_AC_CLOSE &kp C_AC_EXIT
 	&kp LCAPS &kp RSHFT &kp RSHFT  &kp RSHFT &kp RSHFT &kp RSHFT &tog 2  &kp RSHFT  	&kp PG_UP &kp LEFT  &kp C_AL_SPELL   &kp RSHFT         &kp RSHFT     &kp RSHFT      &kp K_REDO     &kp K_UNDO
 	            	    &kp C_MUTE &kp LALT  &kp LCTRL &kp LSHFT &kp LSHFT      	      	&kp PG_DN &kp RIGHT &kp HOME         &kp END           &kp RGUI
