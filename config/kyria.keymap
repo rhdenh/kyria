@@ -32,16 +32,16 @@
 			bindings = <
 	&bt BT_NXT   &kp K_WWW  &kp C_AL_MAIL &kp C_AL_WORD &kp C_AL_FILES  &kp C_AL_CALC           					   &kp UNDER  &kp N7   &kp N8   &kp N9   &kp N0    &kp KP_CLEAR
 	&kp C_RESET  &kp RSHFT  &kp RSHFT     &kp RSHFT     &kp RSHFT       &kp RSHFT							   &kp LPAR  &kp N4   &kp N5   &kp N6   &kp MINUS &kp PLUS
-	&kp RSHFT    &kp RSHFT  &kp RSHFT     &kp RSHFT     &kp RSHFT       &kp RSHFT  &tog 1 &kp RSHFT          	&kp UP   &kp LEFT  &kp RPAR  &kp N1   &kp N2   &kp N3   &kp EQUAL &kp EQUAL
+	&kp RSHFT    &kp RSHFT  &kp RSHFT     &kp RSHFT     &kp RSHFT       &kp RSHFT  &tog 1 &kp RSHFT          	&kp UP   &kp LEFT  &kp RPAR  &kp N1   &kp N2   &kp N3   &kp FSLH &kp EQUAL
 	             		&kp C_MUTE    &kp LALT      &kp LCTRL       &kp LSHFT  &kp LSHFT      	    		&kp DOWN &kp RIGHT &kp HOME  &kp END  &kp RGUI
 			>;
 		};
 		upper_layer {
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 			bindings = <	
-	&kp F1    &kp F2    &kp F3     &kp F4    &kp F5    &kp F6                 				    &kp LPAR &kp RPAR &kp MINUS   &kp EQUAL   &kp C_AL_HELP  &kp BSPC
-	&kp F7    &kp F8    &kp F9     &kp F10   &kp F11   &kp F12                        		     	    &kp C_AC_NEW     &kp C_AC_OPEN     &kp C_AC_SAVE &kp C_AC_PRINT &kp MINUS &kp C_AC_EXIT
-	&kp LCAPS &kp RSHFT &kp RSHFT  &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &tog 2    	&kp PG_UP &kp LEFT  &kp C_AL_SPELL   &kp RSHFT         &kp RSHFT     &kp RSHFT      &kp K_REDO     &kp K_UNDO
+	&kp F1    &kp F2    &kp F3     &kp F4    &kp F5    &kp F6                 				    &kp UNDER &kp NN7 &kp N8   &kp N9   &kp N0  &kp KP_CLEAR
+	&kp F7    &kp F8    &kp F9     &kp F10   &kp F11   &kp F12                        		     	    &kp LPAR     &kp N4     &kp N5 &kp N6 &kp MINUS &kp PLUS
+	&kp LCAPS &kp RSHFT &kp RSHFT  &kp RSHFT &kp RSHFT &kp RSHFT &kp RSHFT &tog 2    	&kp PG_UP &kp LEFT  &kp RPAR   &kp N1         &kp N2     &kp N3      &kp FSLH     &kp EQUAL
 	            	    &kp C_MUTE &kp LALT  &kp LCTRL &kp LSHFT &kp LSHFT      	      	&kp PG_DN &kp RIGHT &kp HOME         &kp END           &kp RGUI
 			>;
 		};
