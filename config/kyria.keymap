@@ -30,7 +30,7 @@
 		lower_layer {
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 			bindings = <
-	&bt BT_NXT   &kp K_WWW      &kp C_AL_MAIL &kp C_AL_WORD &kp C_AL_FILES &kp C_AL_CALC           				   	&kp UNDER &kp N7  &kp N8 &kp N9 &kp N0    &kp KP_CLEAR
+	&bt BT_NXT   &kp K_WWW      &kp C_AL_MAIL &kp C_AL_WORD &kp C_AL_FILES &kp C_AL_CALC           				   	&kp UNDER &kp N7  &kp N8 &kp N9 &kp N0    &kp BSPC
 	&kp C_RESET  &kp C_AC_NEW   &kp C_AC_OPEN &kp C_AC_SAVE &kp C_AC_PRINT &kp C_AC_CLOSE					   	&kp LPAR  &kp N4  &kp N5 &kp N6 &kp MINUS &kp PLUS
 	&kp RSHFT    &kp C_AC_SPELL &kp C_AC_HELP &kp K_REDO    &kp K_UNDO     &kp C_AC_EXIT  &tog 1 &kp RSHFT       &kp UP   &kp LEFT  &kp RPAR  &kp N1  &kp N2 &kp N3 &kp FSLH  &kp EQUAL
 	             		  &kp C_MUTE    &kp LALT          &kp LCTRL              &kp LSHFT  &kp LSHFT        &kp DOWN &kp RIGHT &kp HOME  &kp END &kp RGUI
